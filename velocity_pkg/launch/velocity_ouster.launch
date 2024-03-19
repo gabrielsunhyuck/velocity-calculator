@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+  <arg name="node_name" value="velocity_OUSTER" />
+  <arg name="output" value="screen" />
+
+  <node pkg="velocity_pkg" type="ouster_vel.py" name="$(arg node_name)" output="$(arg output)">
+  </node>
+</launch>

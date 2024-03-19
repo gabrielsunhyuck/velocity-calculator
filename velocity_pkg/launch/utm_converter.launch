@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+  <arg name="node_name" value="utm_converter" />
+  <arg name="output" value="screen" />
+
+  <node pkg="velocity_pkg" type="ll2utm.py" name="$(arg node_name)" output="$(arg output)">
+    <!-- 추가: utm_converter 노드 실행을 위한 인자 설정 -->
+    <param name="run_utm_converter" value="true" />
+  </node>
+</launch>
