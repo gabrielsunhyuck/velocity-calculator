@@ -23,4 +23,5 @@ Object's Acceleration > **INTEGRAL** > Object's Velocity
 You can calculate velocity of the object which is detected by OUSTER(3D-LiDAR)
 
 Object's Position > **DEFFERENTIAL** > Object's Velocity
+
 ![ouster_vel](https://github.com/gabrielsunhyuck/velocity-calculator/assets/163500499/0b154a83-694c-42fe-bacb-ac79ca7b9bba)
